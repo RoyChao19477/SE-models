@@ -13,15 +13,21 @@
 ## Run:
 STFT preprocessing:  
 
-> python src/preprocessing.py data.h5 list_noisy list_clean
+```
+python src/preprocessing.py data.h5 list_noisy list_clean
+```
 
 Train model with pytorch (will store model at src/model/DDAE.pt)  
 
-> python src/train_DNN.py v2_train_DNN.py data.h5
+```
+python src/train_DNN.py v2_train_DNN.py data.h5
+```
 
 Use the model to test result (result will store at src/enhanced_voice/)  
 
-> python src/run.py DDAE.pt list_noisy
+```
+python src/run.py DDAE.pt list_noisy
+```
 
 ## References:
 @inproceedings{lu2013speech,
