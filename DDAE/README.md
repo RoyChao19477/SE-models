@@ -30,11 +30,11 @@ python src/run.py DDAE.pt list_noisy
 ```
 
 ## References:
-@inproceedings{lu2013speech,
-  title={Speech enhancement based on deep denoising autoencoder.},
-  author={Lu, Xugang and Tsao, Yu and Matsuda, Shigeki and Hori, Chiori},
-  booktitle={Interspeech},
-  volume={2013},
-  pages={436--440},
-  year={2013}
+@inproceedings{lu2013speech,  
+  title={Speech enhancement based on deep denoising autoencoder.},  
+  author={Lu, Xugang and Tsao, Yu and Matsuda, Shigeki and Hori, Chiori},  
+  booktitle={Interspeech},  
+  volume={2013},  
+  pages={436--440},  
+  year={2013}  
 }
