@@ -75,12 +75,12 @@ for t in range(EPOCH):
             y = batch[1]
 
 
+        optimizer.zero_grad()
         y_pred = model(x)
 
         # Compute loss
         loss = loss_fn(y_pred, y)
 
-        optimizer.zero_grad()
         loss.backward()
         optimizer.step()
 
